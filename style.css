@@ -1,0 +1,375 @@
+/* Common Elements  */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#top{
+    position: fixed;
+    right: 35px;
+    bottom: 25px;
+    
+}
+
+
+.paintingh1{
+    font-family: 'Lobster', cursive;
+    color:rgb(203, 23, 116);
+    text-align: center;
+    font-size: 50px;
+
+}
+.digitalh1{
+    font-family: 'Lobster', cursive;
+    color:rgb(203, 23, 116);
+    text-align: center;
+    font-size: 50px;
+
+}
+.photographyh1{
+    font-family: 'Lobster', cursive;
+    color:rgb(203, 23, 116);
+    text-align: center;
+    font-size: 50px;
+
+}
+
+.hr1{
+    border: 2.5px;
+    border-color: rgb(217, 41, 132) ;
+    border-style: solid;
+    margin: 0;
+    opacity: 1;
+}
+
+.maintitle{
+    font-family: 'Lobster', cursive;
+    color: white;
+    font-size: 145px;
+    text-align: center;
+}
+.subtitle1{
+    font-family: 'Lobster', cursive;
+     color: rgb(255, 255, 255);
+    font-size: 30px;
+    text-align: center;
+}
+.subtitle2{
+    font-family: 'Lobster', cursive;
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    text-align: center;
+    
+}
+/* Navigation Bar CSS starts */
+
+#navbar{
+    display: flex;
+    background-color: rgb(60, 87, 49);
+    height: 80px;
+    align-items: center;
+    font-family: 'Abril Fatface', cursive;
+    position: sticky;
+    top: 2px;
+
+}
+
+/* logo  */
+#logo{
+    width: 200px;
+
+}
+
+#logoimg{
+    height: 55px;
+    margin: 12px 40px;
+    border-radius: 25px;
+    
+}
+
+/* Navigation Links  */
+
+#navlinks{
+   width: 955px;
+   padding-left: 460px;
+}
+
+#links{
+    display: flex;
+    list-style: none;
+    
+}
+
+.linkitem{
+
+}
+
+.linka{
+    padding: 10px;
+    margin: 15px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+
+}
+.linka:hover{
+    background-color: azure;
+    color: grey;
+    transition: 1;
+}
+.currentpage{
+    border: 2px solid rgb(216, 213, 213); 
+    border-radius: 20px
+}
+
+/* Social Media Links  */
+
+#socialmedia{
+    margin: auto;
+}
+#socialmedia img{
+    border-radius: 30px;
+
+} 
+
+#socialmedia img:hover{
+    transform: scale(1.2);
+    box-shadow: 0px 0px 25px 0px rgb(248, 248, 248); 
+    transition: 1s;
+}
+
+    
+/* Navigation Bar CSS ends */
+
+
+/* Home content CSS starts here  */
+
+#homecontent{
+    height: 900px;
+    background-image: url(pexels-reyhan-13098249.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+   
+
+}
+
+/* Home content CSS ends here  */
+
+
+/* Table CSS Starts */
+
+body{
+    background-color: #ded3c4;
+    height: 40px;
+    font-family: poppins;
+}
+.container{
+    margin-top: 2%;
+}
+
+.img-text{
+    width: 100%;
+    height: 300px;
+    display: block;
+    text-align: center;
+    padding: 40% 3%;
+    background: #5a5a5a;
+    color: #fff;
+    border-radius: 15px;
+}
+
+.img-text h2{
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+}
+
+.img-text p{
+    font-size: 14px;
+
+}
+.single-box{
+    position: relative;
+    margin-bottom: 45px;
+}
+
+.img-area{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border: 5px solid #fff;
+    overflow: hidden;
+    top: 15px;
+    left: 125px;
+    border-radius: 50%;
+   
+}
+
+.img-area img{
+    width: 100%;
+}
+
+.carousel-indicators{
+    left: 0;
+    top: auto;
+    bottom: -70px;
+    
+}
+.carousel-indicators li{
+     background: #000;
+     border-radius: 100%;
+     width: 15px;
+     height: 15px;
+     bottom: 70px;
+}
+.carousel-indicators .active{
+    background: #fff;
+}
+
+
+/* Table CSS Ends */
+
+
+/* Footer CSS Starts Here */
+
+#footer{
+    display: flex;
+    background-color:rgb(79, 113, 65);
+    height: 60px;
+    /* align-items: center;  */
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    color: white;
+    justify-content: center;
+    line-height: 60px; 
+    
+}
+
+/* Footer CSS Ends Here */
+
+
+/* Painting CSS starts here  */
+
+ #paintingcontent{
+    background-color: rgba(243, 226, 236, 0.824);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+ }
+
+ #paintingbox{
+    width: 900px;
+    height: 650px;
+    border: 2px solid rgb(217, 41, 132);
+    border-radius: 25px;
+    margin: 10px;
+    padding: 10px;
+ }
+ .paintingbox img{
+    border-radius: 25px;
+ }
+
+.paintingbox h5{
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(40, 27, 27);
+    font-size: 25px;
+    font-weight: bolder;
+    text-align: center;
+}
+.paintingbox p{
+    border-radius: 25px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(40, 27, 27);
+    font-size: 22px;
+    text-align: center;
+    
+}
+
+/* Painting CSS ends here  */
+
+/* Digital CSS starts here  */
+
+#digitalcontent{
+    background-color:rgba(243, 226, 236, 0.824);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+ }
+
+ #digitalbox{
+    width: 900px;
+    height: 650px;
+    border: 2px solid rgb(217, 41, 132);
+    border-radius: 25px;
+    margin: 10px;
+    padding: 10px;
+ }
+ .digitalbox img{
+    border-radius: 25px;
+ }
+
+.digitalbox h5{
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(40, 27, 27);
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+}
+.digitalbox p{
+    border-radius: 25px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(40, 27, 27);
+    font-size: 22px;
+    text-align: center;
+    
+}
+
+/* Digital CSS ends here  */
+
+
+/* Photography CSS starts here  */
+
+#photographycontent{
+    background-color:rgba(243, 226, 236, 0.824);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+ }
+
+ #photographybox{
+    width: 900px;
+    height: 650px;
+    border: 2px solid rgb(217, 41, 132);
+    border-radius: 25px;
+    margin: 10px;
+    padding: 10px;
+ }
+ .photographybox img{
+    border-radius: 25px;
+ }
+
+.photographybox h5{
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(40, 27, 27);
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+}
+.photographybox p{
+    border-radius: 25px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(40, 27, 27);
+    font-size: 22px;
+    text-align: center;
+    
+}
+
+/* Photography CSS ends here  */
